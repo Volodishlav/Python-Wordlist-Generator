@@ -63,7 +63,8 @@ cd Python-Wordlist-Generator
 python3 main.py
 ```
 
-The generated wordlist will be exported to the current directory as **"wordlist.txt"**
+> [!NOTE]
+> The generated wordlist will be exported to the current directory as **"wordlist.txt"**
 
 ## Example Generated Patterns
 
@@ -82,4 +83,5 @@ v2roottest
 
 ## Disclaimer
 
-This tool is intended for educational purposes, research and password auditing. The author is not responsible of any misuse or damage caused by it
+> [!WARNING]
+> This tool is intended for educational purposes, research and password auditing. The author is not responsible of any misuse or damage caused by it
