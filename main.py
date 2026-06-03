@@ -74,7 +74,7 @@ while len(results) < TARGET:
 results_list = list(results)
 random.shuffle(results_list)
 
-out_path = r"./wordlist.txt"  # Ruta de salida
+out_path = r"./wordlist.txt"  # Output path
 with open(out_path, "w", encoding="utf-8") as f:
     for line in results_list:
         f.write(line + "\n")
